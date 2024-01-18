@@ -19,8 +19,11 @@ form.addEventListener('submit', function(e){
 
    linhas += linha
 
-    const corpoTabela = document.querySelector('tbody');
+    const corpoTabela = document.querySelector('table');
     corpoTabela.innerHTML = linhas
+
+    inputNomeContato.value = ''
+    inputNumContato.value = ''
 
    
 
