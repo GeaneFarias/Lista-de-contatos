@@ -13,7 +13,9 @@ form.addEventListener('submit', function(e){
     
 
     let linha = '<tr>';
+    linha += `<th>Nome: </th>`
     linha += `<td> ${inputNomeContato.value}</td> `;
+    linha += `<th>Numero:</th>`
     linha += `<td> ${inputNumContato.value} </td>`;
     linha += '</tr>';
 
