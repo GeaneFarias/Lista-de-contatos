@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contato</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+
+    <header> 
+        <img src="phone.png" width="100"/>
+        <h1> Lista de contatos  </h1>
+    </header>
+
+    <form id="form-contato">
+
+        <input type="text" id="nome-contato" placeholder="Nome"/>
+        <input type="number" id="num-contato" placeholder="Numero" /> 
+        <button type="submit">Salvar</button>
+
+    </form>
+
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+           
+                <th>
+                    Numero
+                </th>
+
+                <tr>
+                    Contato de:
+                </tr>
+            </tr>
+        </thead>
+    </table>
+
+    <tbody>
+
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Contatos</td>
+            <td id="nome-final">--------</td>
+            <td id="numero-final">--------</td>
+        </tr>
+    </tfoot>
+
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
